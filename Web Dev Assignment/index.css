@@ -1,0 +1,109 @@
+.special1 {
+  font-family: "Playwrite AU SA", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+}
+.special2 {
+    font-family: "Funnel Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+}
+.special3 {
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    text-decoration:underline;
+    text-decoration-style: unset;
+  }
+body {
+    background-color: #578E7E;
+}
+#myheader {
+    margin: 0%;
+    margin-top: 30px;
+    background-color: #3D3D3D; 
+    padding: 0%;
+}
+.container { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100px;
+    margin-top: 2%;
+    margin-bottom: 10px;
+} 
+.image {
+    width: 125px;
+    height: 100px;
+} 
+.text {
+    width: auto; 
+    text-align: right;
+}
+hr {
+    border: 2px solid black;
+}
+.sports_container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+}
+
+.sports {
+    width: 250px; 
+    max-width: 350px;  
+    min-width: 100px;
+    height: 200px; 
+    max-height: 300px; 
+    min-height: 100px;
+    margin: 15px;
+    border: 0.5px solid black;
+    border-radius: 4%;
+}
+.sports_image:hover{
+    width: calc(280px + 10px);
+    height: calc(auto + 10px);
+    text-shadow:2px 4px 4px #578E7E;
+}
+    .sports_image {
+        background-color: #FFFAEC;
+        width: 280px;
+        height: auto;
+        border-radius: 4%;
+        margin: auto; /* This centers the element horizontally */
+        transition: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in;
+    }
+.label {
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Funnel Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.onhover:hover {
+    color: #3D3D3D;
+}
+.onhover{
+    text-decoration: none;
+    color: #578E7E;
+    /* transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in; */
+}
+ol {
+    margin: 0%;
+    padding-left: 15px;
+}
